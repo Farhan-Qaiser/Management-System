@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+.app-title{
+    margin-bottom: 1.6rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    margin-top: 1.3rem;
+}
+.form input{
+    padding: .7rem;
+    font-size: 1.5rem;
+    border: 1px solid #000;
+    border-radius: .4rem;
+}
+button{
+    font-size: 1rem;
+    background-color: #007bff;
+    padding: .8rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: .4rem;
+}
+button:hover{
+    background-color: #0056b3;
+}
+.student-list{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+
+}
+.student{
+    background-color: #f9f9f9;
+    border: 1px solid #000;
+    padding: 1rem;
+    border-radius: .4rem;
+}
+.student-list-title{
+    display: block;
+    margin-top: 1rem;
+}
